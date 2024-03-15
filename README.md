@@ -1,5 +1,7 @@
 # Dotnet8-LightWeightThread-Benchmark
 
+0. Edit WAITINGSERVER_URL environment variable in dockerfile.
+
 1. Build docker image on root of project where dockerfile is located :
 ```
 docker build . -f .\Dockerfile -t dotnet-bench:v1
